@@ -619,6 +619,10 @@ flex-direction: column;
 .cont_fondo1 a{
     padding: 10px 30px;
 }
+.descripcion p{
+    padding-bottom: 20px;
+}
+
 
 }
 
@@ -635,7 +639,7 @@ flex-direction: column;
 
 
 
-@media (max-width: 400px){
+@media (max-width: 430px){
 
 .cont_header nav{
     display: none;
@@ -644,6 +648,10 @@ flex-direction: column;
 .cont_header{
     align-items: center;
     position: relative;
+}
+
+.descripcion p{
+    padding-bottom: 20px;
 }
 
 
