@@ -639,7 +639,7 @@ flex-direction: column;
 
 
 
-@media (max-width: 430px){
+@media (max-width: 480px){
 
 .cont_header nav{
     display: none;
