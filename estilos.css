@@ -670,6 +670,7 @@ flex-direction: column;
     gap: 20px;
     padding: 10px 0;
     align-items: center;
+    z-index: 105;
 }
 
 
