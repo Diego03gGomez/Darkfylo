@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+
+.menu_oculto a{
+    color: #0b152300;
+}
+
+
 body{
     margin: 0;
     padding: 0;
@@ -659,6 +665,7 @@ flex-direction: column;
     display: initial;
 }
 
+
 .menu_oculto{
     position: absolute;
     top: 70px;
@@ -672,6 +679,9 @@ flex-direction: column;
     align-items: center;
     z-index: 105;
 }
+
+
+
 
 
 .menu_oculto a{
