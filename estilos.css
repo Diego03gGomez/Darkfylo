@@ -8,6 +8,8 @@
 }
 
 
+
+
 body{
     margin: 0;
     padding: 0;
@@ -351,7 +353,14 @@ padding-top: 7px;
   }
 
 
-
+#f_menu_oculto{
+    display: none;
+    position: absolute;
+  /*  background-color: red;*/
+    width: 100%;
+    top: 70px;
+    z-index: 995;
+}
 
 
 
@@ -667,8 +676,8 @@ flex-direction: column;
 
 
 .menu_oculto{
-    position: absolute;
-    top: 70px;
+  /*  position: absolute;*/
+  /*  top: 70px;*/
     background-color:#202a3c;
     width: 100%;
     display: flex;

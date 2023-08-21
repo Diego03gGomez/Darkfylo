@@ -1,10 +1,10 @@
 $(document).ready(function () {
     
-$(".menu_oculto").hide();
+$("f_menu_oculto").hide();
 
 $(".menu").click(function (e) { 
     e.preventDefault();
-    $(".menu_oculto").slideToggle();
+    $("#f_menu_oculto").slideToggle();
 });
 
 
